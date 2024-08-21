@@ -25,7 +25,7 @@ const routes = require("./routes");
  */
 
 const app = express();
-const port = process.env.PORT || "80";
+const port = process.env.PORT || "3000";
 
 // Required if running through reverse proxy like NGINX
 app.set("trust proxy", 1);
